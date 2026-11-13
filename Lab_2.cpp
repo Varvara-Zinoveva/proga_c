@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    std::cout << "Задание 1 " << "\n";
+    cout << "Задание 1 " << "\n";
 
     double num1, num2;
     cout << "Введите первое число: ";
@@ -73,7 +73,7 @@ int main()
             cout << "Неизвестный знак операции!" << "\n";
     }
 
-    std::cout << "Задание 2 " << "\n";
+    cout << "Задание 2 " << "\n";
 
     int n;
     while (true)
@@ -126,8 +126,6 @@ int main()
         }
     }
     cout << "Сумма элементов на нечётных позициях: " << nech << "\n";
-
-    std::cout << "Задание 3 " << "\n";
 
     return 0;
 }
